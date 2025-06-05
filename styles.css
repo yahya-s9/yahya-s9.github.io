@@ -520,3 +520,34 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 700px) {
+  .top_intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding-top: 2em;
+  }
+  .about.class, .about {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .img {
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .img img {
+    margin: 0 auto !important;
+    display: block !important;
+    width: 70vw;
+    max-width: 300px;
+    height: auto;
+    float: none !important;
+  }
+}
